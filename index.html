@@ -3,414 +3,131 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>FreshMagnets - Custom Photo Magnets</title>
-<meta name="description" content="Turn your favorite photos into high-quality custom photo magnets. Upload, pick your size, get them delivered fast." />
-<meta property="og:title" content="FreshMagnets - Custom Photo Magnets" />
-<meta property="og:description" content="Turn your photos into fridge magnets you will actually keep." />
-<meta property="og:url" content="https://freshmagnets.com" />
+<title>FreshMagnets — Custom Photo Magnets Made in the USA</title>
+<meta name="description" content="Turn your favorite photos into premium custom photo magnets. Three sizes, glossy full-color print, strong backing, pressed to order in the USA. Upload a photo and we handle the rest." />
+<link rel="canonical" href="https://freshmagnets.github.io/" />
+<meta name="robots" content="index, follow" />
+
+<!-- Open Graph -->
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="FreshMagnets" />
+<meta property="og:title" content="FreshMagnets — Custom Photo Magnets Made in the USA" />
+<meta property="og:description" content="Turn your photos into fridge magnets you will actually keep. Square, rectangle and round sizes, glossy print, pressed to order." />
+<meta property="og:url" content="https://freshmagnets.github.io/" />
+<meta property="og:image" content="https://cdn.shopify.com/s/files/1/0989/4628/5888/files/2-5x2-5.png?v=1781475413" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="FreshMagnets — Custom Photo Magnets" />
+<meta name="twitter:description" content="Turn your photos into fridge magnets you will actually keep. Pressed to order in the USA." />
+<meta name="twitter:image" content="https://cdn.shopify.com/s/files/1/0989/4628/5888/files/2-5x2-5.png?v=1781475413" />
+
 <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-<link rel="shortcut icon" href="/favicon.ico" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="/styles.css" />
 <script src="https://analytics.ahrefs.com/analytics.js" data-key="Ue+dKrapkQAWfzw3NBwNlg" async></script>
-<style>
-:root {
-  --teal:        #00BFA0;
-  --teal-dark:   #009982;
-  --teal-faint:  #F0FBF9;
-  --coral:       #FF6B6B;
-  --coral-faint: #FFF1F1;
-  --ink:         #0C0C1A;
-  --ink-mid:     #52525B;
-  --ink-soft:    #A1A1AA;
-  --surface:     #F6FAF9;
-  --white:       #FFFFFF;
-  --border:      rgba(0,0,0,0.08);
-  --radius:      12px;
-  --ff-display:  'Space Grotesk', sans-serif;
-  --ff-body:     'Inter', sans-serif;
-  --shadow-sm:   0 2px 8px rgba(0,0,0,0.07);
-  --shadow-md:   0 8px 28px rgba(0,0,0,0.11);
-  --shadow-lg:   0 24px 64px rgba(0,0,0,0.14);
-}
-*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-html { scroll-behavior: smooth; }
-body {
-  font-family: var(--ff-body);
-  background: var(--white);
-  color: var(--ink);
-  line-height: 1.65;
-  overflow-x: hidden;
-  -webkit-font-smoothing: antialiased;
-}
 
-/* Nav */
-nav {
-  position: sticky; top: 0; z-index: 100;
-  background: rgba(255,255,255,0.88);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
-  border-bottom: 1px solid var(--border);
-  display: flex; align-items: center; justify-content: space-between;
-  padding: 0 6%; height: 64px;
+<!-- Structured data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://freshmagnets.com/#organization",
+      "name": "FreshMagnets",
+      "url": "https://freshmagnets.com",
+      "logo": "https://freshmagnets.github.io/favicon.svg",
+      "description": "Custom photo magnets pressed to order in the USA in square, rectangle and round sizes.",
+      "sameAs": ["https://freshmagnets.github.io/"]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://freshmagnets.github.io/#website",
+      "url": "https://freshmagnets.github.io/",
+      "name": "FreshMagnets",
+      "publisher": { "@id": "https://freshmagnets.com/#organization" }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What sizes do custom photo magnets come in?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Three shapes: a 2.5 by 2.5 inch square (our most popular), a 2 by 3 inch rectangle in classic photo proportions, and a 2.25 inch round. You can mix sizes across one order." }
+        },
+        {
+          "@type": "Question",
+          "name": "How are the magnets made?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Each magnet is printed in full color, pressed under a smooth glossy finish, and backed with a strong flexible magnet. They are pressed to order in the USA for indoor use, with no peeling, bending or fading." }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I order photo magnets?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Pick a size, choose a pack of 6, 9, 12 or 15, and upload your photo at checkout. Bright, high resolution images of faces and pets print best. We handle the rest." }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I use photo magnets as wedding favors?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Yes. Photo magnets are popular as wedding favors, save the dates and party favors. Order a larger pack so every guest can take one home." }
+        }
+      ]
+    }
+  ]
 }
-.nav-logo {
-  font-family: var(--ff-display); font-weight: 700; font-size: 1.35rem;
-  color: var(--ink); text-decoration: none; display: flex; align-items: center; gap: 6px;
-}
-.nav-logo em { color: var(--teal); font-style: normal; }
-.nav-logo .dot {
-  width: 7px; height: 7px; border-radius: 50%; background: var(--coral);
-  animation: dot-pulse 2.4s ease-in-out infinite;
-}
-@keyframes dot-pulse {
-  0%,100% { opacity:1; transform:scale(1); }
-  50%      { opacity:.45; transform:scale(1.5); }
-}
-.nav-links { display: flex; gap: 28px; list-style: none; align-items: center; }
-.nav-links a {
-  font-size: .875rem; font-weight: 500; color: var(--ink-mid);
-  text-decoration: none; transition: color .18s;
-}
-.nav-links a:hover { color: var(--ink); }
-.nav-cta {
-  background: var(--teal) !important; color: #fff !important;
-  padding: 8px 20px; border-radius: 8px;
-  transition: background .18s !important;
-}
-.nav-cta:hover { background: var(--teal-dark) !important; }
-
-/* Hero */
-.hero-wrap {
-  max-width: 1160px; margin: 0 auto; padding: 72px 6% 56px;
-  display: grid; grid-template-columns: 1fr 1fr; gap: 56px; align-items: center;
-}
-.hero-eyebrow {
-  display: inline-flex; align-items: center; gap: 8px;
-  background: var(--coral-faint); color: var(--coral);
-  font-size: .75rem; font-weight: 600; letter-spacing: .07em;
-  text-transform: uppercase; padding: 5px 14px; border-radius: 100px;
-  margin-bottom: 22px;
-}
-.hero-eyebrow::before {
-  content: ''; width: 6px; height: 6px; background: currentColor;
-  border-radius: 50%; animation: dot-pulse 2s infinite;
-}
-.hero-title {
-  font-family: var(--ff-display); font-size: clamp(2.2rem, 3.8vw, 3.4rem);
-  font-weight: 700; line-height: 1.08; letter-spacing: -.025em;
-  margin-bottom: 18px;
-}
-.hero-title .hl {
-  color: var(--teal); position: relative; display: inline-block;
-}
-.hero-title .hl::after {
-  content: ''; position: absolute; left: 0; right: 0; bottom: 2px;
-  height: 3px; background: var(--teal); opacity: .25; border-radius: 2px;
-}
-.hero-sub {
-  font-size: 1.05rem; color: var(--ink-mid); margin-bottom: 34px; line-height: 1.7;
-}
-.hero-sub a { color: var(--teal); text-decoration: none; font-weight: 500; }
-.hero-sub a:hover { text-decoration: underline; }
-.hero-btns { display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 40px; }
-.btn-p {
-  background: var(--teal); color: #fff; padding: 13px 26px; border-radius: 10px;
-  font-weight: 600; font-size: .9rem; text-decoration: none;
-  box-shadow: 0 4px 18px rgba(0,191,160,.28);
-  transition: background .18s, transform .15s, box-shadow .15s;
-}
-.btn-p:hover {
-  background: var(--teal-dark); transform: translateY(-1px);
-  box-shadow: 0 6px 26px rgba(0,191,160,.38);
-}
-.btn-s {
-  background: transparent; color: var(--ink); padding: 13px 26px; border-radius: 10px;
-  font-weight: 600; font-size: .9rem; text-decoration: none;
-  border: 1.5px solid var(--border); transition: border-color .18s, color .18s;
-}
-.btn-s:hover { border-color: var(--teal); color: var(--teal); }
-.hero-stats {
-  display: flex; gap: 28px;
-  padding-top: 20px; border-top: 1px solid var(--border);
-}
-.stat-val {
-  font-family: var(--ff-display); font-size: 1.4rem; font-weight: 700; line-height: 1;
-}
-.stat-lbl { font-size: .78rem; color: var(--ink-soft); margin-top: 4px; }
-
-/* Polaroid scatter */
-.hero-visual {
-  display: flex; align-items: center; justify-content: center;
-  min-height: 460px; position: relative;
-}
-.scatter { position: relative; width: 340px; height: 400px; }
-.pol {
-  position: absolute; background: #fff;
-  padding: 9px 9px 34px; border-radius: 3px;
-  box-shadow: var(--shadow-md);
-  transition: transform .28s ease, box-shadow .28s ease; cursor: default;
-}
-.pol:hover { box-shadow: var(--shadow-lg); z-index: 5; }
-.pol-img { display: block; width: 100%; height: 100%; border-radius: 2px; }
-.pol-cap {
-  position: absolute; bottom: 9px; left: 0; right: 0;
-  text-align: center; font-size: .6rem; color: #b0b0b0; font-style: italic;
-}
-.mag-tag {
-  position: absolute; top: -7px; right: -7px;
-  background: var(--coral); color: #fff; font-size: .62rem; font-weight: 700;
-  padding: 3px 8px; border-radius: 100px; transform: rotate(10deg);
-}
-.pol-a { width: 152px; height: 172px; top: 18px; left: 8px; transform: rotate(-6deg); }
-.pol-a .pol-img { background: linear-gradient(140deg,#ffeaa7,#fd79a8); }
-.pol-a:hover { transform: rotate(0deg) scale(1.05); }
-
-.pol-b { width: 136px; height: 155px; top: 35px; left: 155px; transform: rotate(4deg); }
-.pol-b .pol-img { background: linear-gradient(140deg,#a29bfe,#74b9ff); }
-.pol-b:hover { transform: rotate(0deg) scale(1.05); }
-
-.pol-c { width: 162px; height: 185px; top: 188px; left: 22px; transform: rotate(2.5deg); }
-.pol-c .pol-img { background: linear-gradient(140deg,#55efc4,#00cec9); }
-.pol-c:hover { transform: rotate(0deg) scale(1.05); }
-
-.pol-d { width: 148px; height: 165px; top: 178px; left: 178px; transform: rotate(-3.5deg); }
-.pol-d .pol-img { background: linear-gradient(140deg,#fd79a8,#e17055); }
-.pol-d:hover { transform: rotate(0deg) scale(1.05); }
-
-/* Shared section */
-.section-wrap { max-width: 1100px; margin: 0 auto; padding: 80px 6%; }
-.sec-label {
-  font-size: .73rem; font-weight: 600; letter-spacing: .1em;
-  text-transform: uppercase; color: var(--teal); margin-bottom: 10px;
-}
-.sec-title {
-  font-family: var(--ff-display); font-size: clamp(1.7rem,2.8vw,2.5rem);
-  font-weight: 700; letter-spacing: -.02em; line-height: 1.18; margin-bottom: 14px;
-}
-.sec-sub {
-  font-size: .97rem; color: var(--ink-mid); line-height: 1.7; max-width: 500px;
-}
-.sec-sub a { color: var(--teal); text-decoration: none; font-weight: 500; }
-.sec-sub a:hover { text-decoration: underline; }
-.centered { text-align: center; }
-.centered .sec-sub { margin: 0 auto; }
-
-/* Products */
-.products-bg { background: var(--surface); }
-.products-header { margin-bottom: 48px; }
-.products-grid {
-  display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px;
-}
-.prod-card {
-  background: var(--white); border-radius: var(--radius);
-  padding: 28px 22px; text-align: center;
-  box-shadow: var(--shadow-sm); border: 1px solid transparent;
-  text-decoration: none; color: inherit; display: block; position: relative;
-  overflow: hidden; transition: transform .2s, box-shadow .2s, border-color .2s;
-}
-.prod-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-md); border-color: var(--teal); }
-.prod-card.pop::after {
-  content: 'Most popular';
-  position: absolute; top: 15px; right: -24px;
-  background: var(--coral); color: #fff;
-  font-size: .63rem; font-weight: 700;
-  padding: 4px 32px; transform: rotate(38deg);
-}
-.prod-swatch {
-  width: 76px; height: 76px; border-radius: 8px;
-  margin: 0 auto 20px; display: flex; align-items: center; justify-content: center;
-  font-size: 2rem;
-}
-.prod-swatch.circle { border-radius: 50%; }
-.ps-1 { background: linear-gradient(140deg,#ffeaa7,#fd79a8); }
-.ps-2 { background: linear-gradient(140deg,#a29bfe,#74b9ff); }
-.ps-3 { background: linear-gradient(140deg,#55efc4,#00cec9); }
-.prod-size { font-family: var(--ff-display); font-size: 1.15rem; font-weight: 700; margin-bottom: 6px; }
-.prod-desc { font-size: .83rem; color: var(--ink-mid); margin-bottom: 14px; line-height: 1.55; }
-.prod-price { font-family: var(--ff-display); font-size: 1.2rem; font-weight: 700; color: var(--teal); }
-.prod-price small { font-size: .75rem; font-weight: 400; color: var(--ink-soft); }
-
-/* Steps */
-.steps-grid {
-  display: grid; grid-template-columns: repeat(3,1fr); gap: 44px;
-  margin-top: 52px; position: relative;
-}
-.steps-grid::before {
-  content: '';
-  position: absolute; top: 26px;
-  left: calc(16.66% + 18px); right: calc(16.66% + 18px);
-  height: 2px; background: linear-gradient(90deg, var(--teal), var(--coral));
-  opacity: .22;
-}
-.step { text-align: center; }
-.step-num {
-  width: 52px; height: 52px; border-radius: 50%;
-  background: linear-gradient(135deg, var(--teal), #1ad9b8);
-  color: #fff; font-family: var(--ff-display); font-size: 1.2rem; font-weight: 700;
-  display: flex; align-items: center; justify-content: center; margin: 0 auto 18px;
-  box-shadow: 0 4px 18px rgba(0,191,160,.28);
-}
-.step-title { font-family: var(--ff-display); font-size: 1rem; font-weight: 600; margin-bottom: 8px; }
-.step-desc { font-size: .875rem; color: var(--ink-mid); line-height: 1.65; }
-
-/* Why dark */
-.why-dark { background: var(--ink); }
-.why-dark .sec-title { color: #fff; }
-.why-dark .sec-sub { color: rgba(255,255,255,.5); }
-.why-grid {
-  display: grid; grid-template-columns: repeat(auto-fit, minmax(230px,1fr)); gap: 24px;
-  margin-top: 52px;
-}
-.why-card {
-  padding: 26px; border-radius: var(--radius);
-  background: rgba(255,255,255,.05);
-  border: 1px solid rgba(255,255,255,.07);
-  transition: background .2s, border-color .2s;
-}
-.why-card:hover { background: rgba(255,255,255,.085); border-color: rgba(0,191,160,.3); }
-.why-icon { font-size: 1.7rem; margin-bottom: 14px; }
-.why-ttl { font-family: var(--ff-display); font-weight: 600; color: #fff; margin-bottom: 7px; }
-.why-body { font-size: .87rem; color: rgba(255,255,255,.5); line-height: 1.65; }
-
-/* Use cases */
-.uc-grid {
-  display: grid; grid-template-columns: repeat(auto-fit,minmax(190px,1fr));
-  gap: 18px; margin-top: 52px;
-}
-.uc-card {
-  border-radius: var(--radius); overflow: hidden;
-  aspect-ratio: 4/3; position: relative; cursor: default;
-}
-.uc-fill {
-  position: absolute; inset: 0;
-  transition: transform .4s ease;
-  display: flex; align-items: center; justify-content: center;
-  font-size: 2.8rem;
-}
-.uc-card:hover .uc-fill { transform: scale(1.05); }
-.uc-1 .uc-fill { background: linear-gradient(145deg,#ffeaa7,#fdcb6e); }
-.uc-2 .uc-fill { background: linear-gradient(145deg,#fd79a8,#e84393); }
-.uc-3 .uc-fill { background: linear-gradient(145deg,#74b9ff,#0984e3); }
-.uc-4 .uc-fill { background: linear-gradient(145deg,#55efc4,#00b894); }
-.uc-lbl {
-  position: absolute; bottom: 0; left: 0; right: 0;
-  padding: 28px 14px 12px;
-  background: linear-gradient(to top, rgba(0,0,0,.55), transparent);
-  color: #fff; font-family: var(--ff-display); font-weight: 600; font-size: .88rem;
-}
-
-/* Capture */
-.capture-bg {
-  background: linear-gradient(135deg, var(--teal-faint) 0%, var(--coral-faint) 100%);
-}
-.email-row {
-  display: flex; gap: 12px; flex-wrap: wrap; justify-content: center; margin-top: 32px;
-}
-.email-input {
-  flex: 1; min-width: 220px; max-width: 300px;
-  padding: 13px 17px; border: 1.5px solid var(--border); border-radius: 10px;
-  font-size: .92rem; font-family: var(--ff-body); outline: none;
-  transition: border-color .18s; background: var(--white); color: var(--ink);
-}
-.email-input::placeholder { color: var(--ink-soft); }
-.email-input:focus { border-color: var(--teal); }
-.capture-note { font-size: .78rem; color: var(--ink-soft); margin-top: 12px; text-align: center; }
-
-/* Footer */
-footer { background: var(--ink); padding: 48px 6% 28px; }
-.footer-top {
-  max-width: 1100px; margin: 0 auto;
-  display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 20px;
-  padding-bottom: 28px; border-bottom: 1px solid rgba(255,255,255,.08);
-}
-.footer-logo-text {
-  font-family: var(--ff-display); font-weight: 700; font-size: 1.2rem;
-  color: #fff; text-decoration: none;
-}
-.footer-logo-text em { color: var(--teal); font-style: normal; }
-.footer-links { display: flex; gap: 24px; list-style: none; flex-wrap: wrap; }
-.footer-links a {
-  font-size: .85rem; color: rgba(255,255,255,.45);
-  text-decoration: none; transition: color .18s;
-}
-.footer-links a:hover { color: rgba(255,255,255,.85); }
-.footer-bot {
-  max-width: 1100px; margin: 22px auto 0;
-  display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px;
-  font-size: .78rem; color: rgba(255,255,255,.3);
-}
-
-/* Responsive */
-@media (max-width: 768px) {
-  .hero-wrap { grid-template-columns: 1fr; padding: 52px 5% 40px; gap: 32px; }
-  .hero-visual { display: none; }
-  .steps-grid { grid-template-columns: 1fr; gap: 28px; }
-  .steps-grid::before { display: none; }
-  .products-grid { grid-template-columns: 1fr; }
-  nav { padding: 0 5%; }
-  .nav-links { display: none; }
-  .footer-top { flex-direction: column; align-items: flex-start; }
-}
-@media (prefers-reduced-motion: reduce) {
-  *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
-}
-</style>
+</script>
 </head>
 <body>
 
 <!-- Nav -->
 <nav>
-  <a href="https://freshmagnets.com" class="nav-logo">
+  <a href="/" class="nav-logo">
     Fresh<em>Magnets</em><span class="dot"></span>
   </a>
   <ul class="nav-links">
-    <li><a href="https://freshmagnets.com">Products</a></li>
-    <li><a href="https://freshmagnets.com">How It Works</a></li>
-    <li><a href="https://freshmagnets.com">Pricing</a></li>
-    <li><a href="https://freshmagnets.com" class="nav-cta">Order Now</a></li>
+    <li class="hide-sm"><a href="https://freshmagnets.com/collections/photo-magnets">Shop</a></li>
+    <li class="hide-sm"><a href="/size-guide/">Size guide</a></li>
+    <li class="hide-sm"><a href="/gift-ideas/">Gift ideas</a></li>
+    <li><a href="https://freshmagnets.com/collections/photo-magnets" class="nav-cta">Order now</a></li>
   </ul>
 </nav>
 
 <!-- Hero -->
-<div class="hero-wrap">
+<header class="hero-wrap">
   <div>
-    <div class="hero-eyebrow">Launching Soon</div>
+    <div class="hero-eyebrow">Pressed to order in the USA</div>
     <h1 class="hero-title">
       Your photos.<br>
       <span class="hl">Magnets</span> worth keeping.
     </h1>
     <p class="hero-sub">
-      <a href="https://freshmagnets.com">FreshMagnets</a> turns your favorite moments
-      into <a href="https://freshmagnets.com">custom photo magnets</a> you will actually
-      want on your fridge. Upload, pick your size, and get them shipped fast.
+      FreshMagnets turns your favorite moments into premium
+      <a href="https://freshmagnets.com/products/custom-photo-magnets">custom photo magnets</a>
+      you will actually want on your fridge. Pick a size, upload a photo,
+      and we press it in full glossy color and ship it to your door.
     </p>
     <div class="hero-btns">
-      <a href="https://freshmagnets.com" class="btn-p">Shop photo magnets</a>
-      <a href="https://freshmagnets.com" class="btn-s">See how it works</a>
+      <a href="https://freshmagnets.com/collections/photo-magnets" class="btn-p">Shop photo magnets</a>
+      <a href="/how-to/" class="btn-s">See how it works</a>
     </div>
     <div class="hero-stats">
       <div>
         <div class="stat-val">3 sizes</div>
-        <div class="stat-lbl">to choose from</div>
+        <div class="stat-lbl">square, rectangle &amp; round</div>
       </div>
       <div>
-        <div class="stat-val">3-5 days</div>
-        <div class="stat-lbl">standard shipping</div>
+        <div class="stat-val">Made in USA</div>
+        <div class="stat-lbl">pressed to order</div>
       </div>
       <div>
-        <div class="stat-val">100%</div>
-        <div class="stat-lbl">satisfaction guarantee</div>
+        <div class="stat-val">Glossy</div>
+        <div class="stat-lbl">full-color finish</div>
       </div>
     </div>
   </div>
 
   <!-- Polaroid scatter -->
-  <div class="hero-visual">
+  <div class="hero-visual" aria-hidden="true">
     <div class="scatter">
       <div class="pol pol-a">
         <div class="pol-img"></div>
@@ -431,38 +148,42 @@ footer { background: var(--ink); padding: 48px 6% 28px; }
       </div>
     </div>
   </div>
-</div>
+</header>
 
 <!-- Products -->
-<section class="products-bg">
+<section class="products-bg" id="shop">
   <div class="section-wrap">
     <div class="products-header centered">
-      <div class="sec-label">Product Lineup</div>
-      <h2 class="sec-title">Three sizes, endless memories</h2>
+      <div class="sec-label">Product lineup</div>
+      <h2 class="sec-title">Three shapes, endless memories</h2>
       <p class="sec-sub">
-        Every <a href="https://freshmagnets.com">photo magnet</a> is printed on premium
-        photo paper with strong flexible magnetic backing.
+        Every magnet is printed in vivid full color, pressed under a smooth glossy
+        finish, and backed with a strong magnet that actually holds. Sold in packs
+        of 6, 9, 12 and 15 — mix sizes across one order.
       </p>
     </div>
     <div class="products-grid">
-      <a href="https://freshmagnets.com" class="prod-card">
+      <div class="prod-card pop">
         <div class="prod-swatch ps-1">📸</div>
-        <div class="prod-size">2.5&Prime; &times; 2.5&Prime;</div>
-        <p class="prod-desc">Square photo magnets great for portraits and Instagram-style shots</p>
-        <div class="prod-price">From $1.99 <small>/ each</small></div>
-      </a>
-      <a href="https://freshmagnets.com" class="prod-card pop">
+        <h3 class="prod-name"><a href="https://freshmagnets.com/products/custom-photo-magnets">Custom Photo Magnets</a></h3>
+        <div class="prod-size">2.5&Prime; &times; 2.5&Prime; square</div>
+        <p class="prod-desc">Our most popular size — big enough to show faces beautifully, compact enough to build a whole gallery wall.</p>
+        <a href="https://freshmagnets.com/products/custom-photo-magnets" class="prod-link">Shop custom photo magnets →</a>
+      </div>
+      <div class="prod-card">
         <div class="prod-swatch ps-2">🖼️</div>
-        <div class="prod-size">2&Prime; &times; 3&Prime;</div>
-        <p class="prod-desc">Our most popular size. Perfect for classic portraits and group photos</p>
-        <div class="prod-price">From $2.49 <small>/ each</small></div>
-      </a>
-      <a href="https://freshmagnets.com" class="prod-card">
+        <h3 class="prod-name"><a href="https://freshmagnets.com/products/fridge-photo-magnets">Fridge Photo Magnets</a></h3>
+        <div class="prod-size">2&Prime; &times; 3&Prime; rectangle</div>
+        <p class="prod-desc">Classic photo proportions, perfect for portraits, couples and travel shots that need room to breathe.</p>
+        <a href="https://freshmagnets.com/products/fridge-photo-magnets" class="prod-link">Shop fridge photo magnets →</a>
+      </div>
+      <div class="prod-card">
         <div class="prod-swatch ps-3 circle">🔵</div>
-        <div class="prod-size">2.25&Prime; Round</div>
-        <p class="prod-desc">Fun circular magnets that stand out on any fridge or cabinet</p>
-        <div class="prod-price">From $1.99 <small>/ each</small></div>
-      </a>
+        <h3 class="prod-name"><a href="https://freshmagnets.com/products/personalized-photo-magnets">Personalized Photo Magnets</a></h3>
+        <div class="prod-size">2.25&Prime; round</div>
+        <p class="prod-desc">A playful round cut that stands out from every square on the fridge — a crowd favorite for party favors.</p>
+        <a href="https://freshmagnets.com/products/personalized-photo-magnets" class="prod-link">Shop personalized photo magnets →</a>
+      </div>
     </div>
   </div>
 </section>
@@ -470,24 +191,24 @@ footer { background: var(--ink); padding: 48px 6% 28px; }
 <!-- How it works -->
 <section>
   <div class="section-wrap">
-    <div class="sec-label">Simple Process</div>
+    <div class="sec-label">Simple process</div>
     <h2 class="sec-title">From photo to fridge in three steps</h2>
-    <p class="sec-sub">No apps, no accounts needed. Just upload and order your <a href="https://freshmagnets.com">custom photo magnets</a>.</p>
+    <p class="sec-sub">No apps or accounts needed. See the full walkthrough in our <a href="/how-to/">how to make photo magnets</a> guide.</p>
     <div class="steps-grid">
       <div class="step">
         <div class="step-num">1</div>
-        <div class="step-title">Upload your photos</div>
-        <p class="step-desc">Pick any photos from your phone or computer. We accept JPEG, PNG, and HEIC. Higher resolution prints sharper.</p>
+        <div class="step-title">Upload your photo</div>
+        <p class="step-desc">Pick any photo from your phone or computer. Bright, high-resolution images of faces and pets print sharpest — send the largest version you have.</p>
       </div>
       <div class="step">
         <div class="step-num">2</div>
         <div class="step-title">Choose your size</div>
-        <p class="step-desc">Select 2.5x2.5, 2x3, or 2.25" round. Mix and match across one order. Crop and adjust with our simple online editor.</p>
+        <p class="step-desc">Square, rectangle or round, in packs of 6 to 15. Not sure which to pick? Our <a href="/size-guide/">size guide</a> walks through each shape.</p>
       </div>
       <div class="step">
         <div class="step-num">3</div>
-        <div class="step-title">Get them delivered</div>
-        <p class="step-desc">We print and ship within 1-2 business days. Standard delivery in 3-5 days. Express available at checkout.</p>
+        <div class="step-title">We press &amp; ship</div>
+        <p class="step-desc">Each magnet is pressed to order in full glossy color and shipped to your door. Fresh off the press.</p>
       </div>
     </div>
   </div>
@@ -498,93 +219,131 @@ footer { background: var(--ink); padding: 48px 6% 28px; }
   <div class="section-wrap">
     <div class="sec-label">Why FreshMagnets</div>
     <h2 class="sec-title">Quality you can feel</h2>
-    <p class="sec-sub">We obsess over print quality, color accuracy, and magnet strength so every order satisfies.</p>
+    <p class="sec-sub">We obsess over print color, magnet strength and durability so every magnet earns its spot on your fridge.</p>
     <div class="why-grid">
       <div class="why-card">
         <div class="why-icon">🎨</div>
-        <div class="why-ttl">Vivid color printing</div>
-        <p class="why-body">Professional-grade dye-sublimation printing with color profiles tuned for photos. What you see on screen is what you get on the magnet.</p>
+        <div class="why-ttl">Vivid, true-to-life color</div>
+        <p class="why-body">Your photo is printed in full color and pressed under a smooth glossy finish that makes faces and colors really pop.</p>
       </div>
       <div class="why-card">
         <div class="why-icon">💪</div>
-        <div class="why-ttl">Strong magnetic backing</div>
-        <p class="why-body">Heavy-duty flexible magnet material. Stays put on fridges, filing cabinets, and whiteboards without slipping or sliding.</p>
+        <div class="why-ttl">A magnet that actually holds</div>
+        <p class="why-body">A strong, durable magnetic backing that stays securely in place on fridges and cabinets and will not slide.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">🇺🇸</div>
+        <div class="why-ttl">Pressed to order in the USA</div>
+        <p class="why-body">Built for indoor use and made fresh from your photo, with no peeling, bending or fading over time.</p>
       </div>
       <div class="why-card">
         <div class="why-icon">📦</div>
-        <div class="why-ttl">Protected packaging</div>
-        <p class="why-body">Every order ships in a rigid mailer with protective sleeves so your magnets arrive flat and damage-free.</p>
+        <div class="why-ttl">Built to last</div>
+        <p class="why-body">Premium materials and a protective finish mean your memories arrive ready to display and keep for years.</p>
       </div>
-      <div class="why-card">
-        <div class="why-icon">🔄</div>
-        <div class="why-ttl">Satisfaction guarantee</div>
-        <p class="why-body">Not happy with your order? We reprint or refund. No hoops, no back-and-forth runaround.</p>
-      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Shop by occasion -->
+<section>
+  <div class="section-wrap">
+    <div class="sec-label">Shop by occasion</div>
+    <h2 class="sec-title">A magnet for every moment</h2>
+    <p class="sec-sub">
+      From elegant <a href="https://freshmagnets.com/collections/wedding-photo-magnets">wedding photo magnets</a>
+      to playful party favors, there is a set for every celebration.
+    </p>
+    <div class="occ-grid">
+      <a class="occ-card" href="https://freshmagnets.com/collections/wedding-photo-magnets"><span class="occ-emoji">💍</span> Wedding</a>
+      <a class="occ-card" href="https://freshmagnets.com/collections/save-the-date-photo-magnets"><span class="occ-emoji">💌</span> Save the date</a>
+      <a class="occ-card" href="https://freshmagnets.com/collections/birthday-photo-magnets"><span class="occ-emoji">🎂</span> Birthday</a>
+      <a class="occ-card" href="https://freshmagnets.com/collections/baby-shower-photo-magnets"><span class="occ-emoji">🍼</span> Baby shower</a>
+      <a class="occ-card" href="https://freshmagnets.com/collections/graduation-photo-magnets"><span class="occ-emoji">🎓</span> Graduation</a>
+      <a class="occ-card" href="https://freshmagnets.com/collections/pet-photo-magnets"><span class="occ-emoji">🐶</span> Pets</a>
+      <a class="occ-card" href="https://freshmagnets.com/collections/christmas-photo-magnets"><span class="occ-emoji">🎄</span> Christmas</a>
+      <a class="occ-card" href="https://freshmagnets.com/collections/memorial-photo-magnets"><span class="occ-emoji">🕊️</span> Memorial</a>
+      <a class="occ-card" href="https://freshmagnets.com/collections/photo-booth-magnets"><span class="occ-emoji">📷</span> Photo booth</a>
+      <a class="occ-card" href="https://freshmagnets.com/collections/bulk-photo-magnets"><span class="occ-emoji">📦</span> Bulk</a>
     </div>
   </div>
 </section>
 
 <!-- Use cases -->
-<section>
+<section class="products-bg">
   <div class="section-wrap">
-    <div class="sec-label">Made For</div>
+    <div class="sec-label">Made for</div>
     <h2 class="sec-title">Every moment worth keeping</h2>
     <p class="sec-sub">
-      <a href="https://freshmagnets.com">Fresh Magnets</a> are for anyone who wants their
-      photos off the phone and onto something real.
+      Fresh Magnets are for anyone who wants their photos off the phone and onto
+      something real. Need ideas? Browse our <a href="/gift-ideas/">photo magnet gift ideas</a>.
     </p>
     <div class="uc-grid">
-      <div class="uc-card uc-1">
+      <a class="uc-card uc-1" href="https://freshmagnets.com/products/custom-photo-magnets">
         <div class="uc-fill">👨&#x200D;👩&#x200D;👧&#x200D;👦</div>
         <div class="uc-lbl">Family memories</div>
-      </div>
-      <div class="uc-card uc-2">
+      </a>
+      <a class="uc-card uc-2" href="https://freshmagnets.com/collections/wedding-photo-magnets">
         <div class="uc-fill">🎁</div>
-        <div class="uc-lbl">Gifts and holidays</div>
-      </div>
-      <div class="uc-card uc-3">
+        <div class="uc-lbl">Gifts &amp; favors</div>
+      </a>
+      <a class="uc-card uc-3" href="https://freshmagnets.com/collections/pet-photo-magnets">
         <div class="uc-fill">🐶</div>
         <div class="uc-lbl">Pet portraits</div>
-      </div>
-      <div class="uc-card uc-4">
+      </a>
+      <a class="uc-card uc-4" href="https://freshmagnets.com/products/fridge-photo-magnets">
         <div class="uc-fill">✈️</div>
         <div class="uc-lbl">Travel collections</div>
-      </div>
+      </a>
     </div>
   </div>
 </section>
 
-<!-- Email capture -->
-<section class="capture-bg">
-  <div class="section-wrap centered">
-    <div class="sec-label">Be First</div>
-    <h2 class="sec-title">Get notified when we launch</h2>
-    <p class="sec-sub">
-      Enter your email and be the first to order
-      <a href="https://freshmagnets.com">photo magnets</a> from FreshMagnets
-      when the shop goes live.
+<!-- CTA band -->
+<section class="cta-band">
+  <div class="section-wrap cta-inner">
+    <div class="sec-label">Fresh off the press</div>
+    <h2 class="sec-title">Ready to turn your photos into magnets?</h2>
+    <p class="sec-sub" style="margin:0 auto;">
+      Upload a photo and we handle the rest — pressed to order and shipped to your door.
     </p>
-    <div class="email-row">
-      <input type="email" class="email-input" placeholder="your@email.com" aria-label="Email address" />
-      <a href="https://freshmagnets.com" class="btn-p">Notify me</a>
+    <div class="cta-btns">
+      <a href="https://freshmagnets.com/products/custom-photo-magnets" class="btn-p">Start with the square size</a>
+      <a href="/size-guide/" class="btn-s">Compare all three sizes</a>
     </div>
-    <p class="capture-note">No spam. Launch notification only.</p>
   </div>
 </section>
 
 <!-- Footer -->
 <footer>
   <div class="footer-top">
-    <a href="https://freshmagnets.com" class="footer-logo-text">Fresh<em>Magnets</em></a>
-    <ul class="footer-links">
-      <li><a href="https://freshmagnets.com">Photo magnets</a></li>
-      <li><a href="https://freshmagnets.com">How it works</a></li>
-      <li><a href="https://freshmagnets.com">FAQ</a></li>
-      <li><a href="https://freshmagnets.com">Contact</a></li>
-    </ul>
+    <div class="footer-brand">
+      <a href="/" class="footer-logo-text">Fresh<em>Magnets</em></a>
+      <p>Custom photo magnets pressed to order in the USA. Square, rectangle and round sizes in vivid glossy color.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Shop</h4>
+      <ul>
+        <li><a href="https://freshmagnets.com/products/custom-photo-magnets">Custom photo magnets</a></li>
+        <li><a href="https://freshmagnets.com/products/fridge-photo-magnets">Fridge photo magnets</a></li>
+        <li><a href="https://freshmagnets.com/products/personalized-photo-magnets">Personalized photo magnets</a></li>
+        <li><a href="https://freshmagnets.com/collections/wedding-photo-magnets">Wedding photo magnets</a></li>
+        <li><a href="https://freshmagnets.com/collections/bulk-photo-magnets">Bulk photo magnets</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Guides</h4>
+      <ul>
+        <li><a href="/size-guide/">Photo magnet size guide</a></li>
+        <li><a href="/wedding-photo-magnets/">Wedding favor ideas</a></li>
+        <li><a href="/gift-ideas/">Photo magnet gift ideas</a></li>
+        <li><a href="/how-to/">How to make photo magnets</a></li>
+      </ul>
+    </div>
   </div>
   <div class="footer-bot">
     <span>&copy; 2026 FreshMagnets. All rights reserved.</span>
+    <span><a href="https://freshmagnets.com">freshmagnets.com</a></span>
   </div>
 </footer>
 
